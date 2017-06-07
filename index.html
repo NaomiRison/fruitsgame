@@ -1,0 +1,62 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fruits Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="styling.css">
+        <!-- jquery ui -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="trialsLeft">
+                
+            </div>
+            <div id="score">
+                Score: <span id="scorevalue">0</span>
+            </div>
+            
+            <div id="correct">
+                Correct
+            </div>
+            <div id="wrong">
+                Try again
+            </div>
+            <div id="fruitsContainer">
+                <img id="fruit1" class="fruit">
+                
+            </div>
+            <div id="instruction">
+                catch fruits
+            </div>
+            <div id="choices">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+            </div>
+            <div id="startreset">
+                Start Game
+            </div>
+            
+            <div id="gameOver">
+                
+            </div>
+        </div>
+        <audio id="sliceSound">
+            <source src="audio(freesound.org)/slicefruit.mp3">
+            <source src="audio(freesound.org)/slicefruit.ogg">
+        </audio>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- jquery ui right after jQuery component -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <script src="jQuery.js"></script>
+    </body>
+</html>
